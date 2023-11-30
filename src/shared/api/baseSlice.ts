@@ -1,17 +1,17 @@
-import {createSlice, PayloadAction} from "@reduxjs/toolkit";
-import {IChar} from "./types";
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { IChar } from './types';
 
-const initialState: IChar[] | null = null
+const initialState: IChar[] | null = null;
 
 export const baseSlice = createSlice({
-    name: 'base',
-    initialState,
-    reducers: {
-        addChars(state, action: PayloadAction<any>){
-            return action.payload
-        }
+  name: 'base',
+  initialState,
+  reducers: {
+    addChars(state, action: PayloadAction<any>) {
+      return action.payload;
     }
-})
+  }
+});
 
-export const baseActions = baseSlice.actions
-export const baseReducer = baseSlice.reducer
+export const baseActions = baseSlice.actions;
+export const baseReducer = baseSlice.reducer;

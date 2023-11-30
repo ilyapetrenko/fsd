@@ -1,1 +1,1 @@
-export { Char } from './Char'
+export { Char } from './Char';

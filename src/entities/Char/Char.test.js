@@ -10,9 +10,9 @@ const testChar = {
   species: 'Human',
   gender: 'Male',
   location: {
-    name: 'Earth',
+    name: 'Earth'
   },
-  image: 'test-image-url',
+  image: 'test-image-url'
 };
 
 test('Char component renders correctly', () => {
