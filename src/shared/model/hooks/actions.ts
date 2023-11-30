@@ -1,9 +1,9 @@
 import { useDispatch } from 'react-redux';
 import { bindActionCreators } from '@reduxjs/toolkit';
-import { baseActions } from '../../api';
+import { baseActions } from '../../../entities/Char';
 
 const actions = {
-  ...baseActions
+  ...baseActions,
 };
 
 export const useActions = () => {

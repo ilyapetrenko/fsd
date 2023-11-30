@@ -1,9 +1,9 @@
-import { CharList } from "../../../widgets/CharList";
+import { CharList } from '../../../widgets/CharList';
 
 export const Gallery = () => {
-    return (
-        <>
-            <CharList/>
-        </>
-    )
-}
+  return (
+    <>
+      <CharList />
+    </>
+  );
+};

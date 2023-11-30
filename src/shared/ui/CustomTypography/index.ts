@@ -1,1 +1,1 @@
-export { CustomTypography } from './CustomTypography'
+export { CustomTypography } from './CustomTypography';
